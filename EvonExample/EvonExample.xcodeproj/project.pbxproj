@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEE672E023E5246300C19D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE672DF23E5246300C19D84 /* AppDelegate.m */; };
+		BEE672E323E5246300C19D84 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE672E223E5246300C19D84 /* SceneDelegate.m */; };
+		BEE672E623E5246300C19D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE672E523E5246300C19D84 /* ViewController.m */; };
+		BEE672E923E5246300C19D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE672E723E5246300C19D84 /* Main.storyboard */; };
+		BEE672EB23E5246400C19D84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE672EA23E5246400C19D84 /* Assets.xcassets */; };
+		BEE672EE23E5246400C19D84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE672EC23E5246400C19D84 /* LaunchScreen.storyboard */; };
+		BEE672F123E5246400C19D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE672F023E5246400C19D84 /* main.m */; };
+		BEE672FA23E524B600C19D84 /* EvonLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE672F923E524B600C19D84 /* EvonLog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEE672DB23E5246300C19D84 /* EvonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE672DE23E5246300C19D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEE672DF23E5246300C19D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEE672E123E5246300C19D84 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BEE672E223E5246300C19D84 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BEE672E423E5246300C19D84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEE672E523E5246300C19D84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEE672E823E5246300C19D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEE672EA23E5246400C19D84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEE672ED23E5246400C19D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEE672EF23E5246400C19D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEE672F023E5246400C19D84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEE672F823E524B600C19D84 /* EvonLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EvonLog.h; sourceTree = "<group>"; };
+		BEE672F923E524B600C19D84 /* EvonLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EvonLog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE672D823E5246300C19D84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEE672D223E5246300C19D84 = {
+			isa = PBXGroup;
+			children = (
+				BEE672F723E524A400C19D84 /* Classes */,
+				BEE672DD23E5246300C19D84 /* EvonExample */,
+				BEE672DC23E5246300C19D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE672DC23E5246300C19D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE672DB23E5246300C19D84 /* EvonExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE672DD23E5246300C19D84 /* EvonExample */ = {
+			isa = PBXGroup;
+			children = (
+				BEE672DE23E5246300C19D84 /* AppDelegate.h */,
+				BEE672DF23E5246300C19D84 /* AppDelegate.m */,
+				BEE672E123E5246300C19D84 /* SceneDelegate.h */,
+				BEE672E223E5246300C19D84 /* SceneDelegate.m */,
+				BEE672E423E5246300C19D84 /* ViewController.h */,
+				BEE672E523E5246300C19D84 /* ViewController.m */,
+				BEE672E723E5246300C19D84 /* Main.storyboard */,
+				BEE672EA23E5246400C19D84 /* Assets.xcassets */,
+				BEE672EC23E5246400C19D84 /* LaunchScreen.storyboard */,
+				BEE672EF23E5246400C19D84 /* Info.plist */,
+				BEE672F023E5246400C19D84 /* main.m */,
+			);
+			path = EvonExample;
+			sourceTree = "<group>";
+		};
+		BEE672F723E524A400C19D84 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BEE672F823E524B600C19D84 /* EvonLog.h */,
+				BEE672F923E524B600C19D84 /* EvonLog.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE672DA23E5246300C19D84 /* EvonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE672F423E5246400C19D84 /* Build configuration list for PBXNativeTarget "EvonExample" */;
+			buildPhases = (
+				BEE672D723E5246300C19D84 /* Sources */,
+				BEE672D823E5246300C19D84 /* Frameworks */,
+				BEE672D923E5246300C19D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvonExample;
+			productName = EvonExample;
+			productReference = BEE672DB23E5246300C19D84 /* EvonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE672D323E5246300C19D84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Evon2020;
+				TargetAttributes = {
+					BEE672DA23E5246300C19D84 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BEE672D623E5246300C19D84 /* Build configuration list for PBXProject "EvonExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEE672D223E5246300C19D84;
+			productRefGroup = BEE672DC23E5246300C19D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE672DA23E5246300C19D84 /* EvonExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE672D923E5246300C19D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE672EE23E5246400C19D84 /* LaunchScreen.storyboard in Resources */,
+				BEE672EB23E5246400C19D84 /* Assets.xcassets in Resources */,
+				BEE672E923E5246300C19D84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE672D723E5246300C19D84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE672FA23E524B600C19D84 /* EvonLog.m in Sources */,
+				BEE672E623E5246300C19D84 /* ViewController.m in Sources */,
+				BEE672E023E5246300C19D84 /* AppDelegate.m in Sources */,
+				BEE672F123E5246400C19D84 /* main.m in Sources */,
+				BEE672E323E5246300C19D84 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEE672E723E5246300C19D84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE672E823E5246300C19D84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEE672EC23E5246400C19D84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE672ED23E5246400C19D84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEE672F223E5246400C19D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEE672F323E5246400C19D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEE672F523E5246400C19D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EvonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Evon.EvonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEE672F623E5246400C19D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EvonExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Evon.EvonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE672D623E5246300C19D84 /* Build configuration list for PBXProject "EvonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE672F223E5246400C19D84 /* Debug */,
+				BEE672F323E5246400C19D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE672F423E5246400C19D84 /* Build configuration list for PBXNativeTarget "EvonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE672F523E5246400C19D84 /* Debug */,
+				BEE672F623E5246400C19D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE672D323E5246300C19D84 /* Project object */;
+}
